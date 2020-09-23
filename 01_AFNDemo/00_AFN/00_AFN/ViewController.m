@@ -20,7 +20,33 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self get];
+//    [self get];
+    [self test00];
+}
+
+- (void)test00 {
+    NSString *urlStr = @"";
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    manager.securityPolicy = [self securityPolicy];
+    
+    [manager GET:urlStr parameters:nil headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+        
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+    }];
+    
+}
+
+- (AFSecurityPolicy *)securityPolicy {
+    NSString *cerPath = [[NSBundle mainBundle] pathForResource:@"12306" ofType:@"cer"];
+    NSData *cerData = [NSData dataWithContentsOfURL:[NSURL URLWithString:cerPath]];
+    NSSet *set = [NSSet setWithObject:cerData];
+    AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:(AFSSLPinningModeCertificate) withPinnedCertificates:set];
+    securityPolicy.allowInvalidCertificates = YES;
+    securityPolicy.validatesDomainName = NO;
+    return securityPolicy;
 }
 
 - (void)get {
