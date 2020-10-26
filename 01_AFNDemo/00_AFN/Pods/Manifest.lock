@@ -18,6 +18,7 @@ PODS:
     - CocoaLumberjack/Core (= 3.6.2)
   - CocoaLumberjack/Core (3.6.2)
   - DYFactoryKit (0.1.2)
+  - MyLayout (1.9.8)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -26,6 +27,7 @@ DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
   - CocoaLumberjack (~> 3.6.2)
   - DYFactoryKit (~> 0.1.2)
+  - MyLayout (~> 1.9.8)
   - YYKit (~> 1.0.9)
 
 SPEC REPOS:
@@ -33,14 +35,16 @@ SPEC REPOS:
     - AFNetworking
     - CocoaLumberjack
     - DYFactoryKit
+    - MyLayout
     - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
   DYFactoryKit: dedc2bf6cbaeae4e71d8c7b6f9e0be44ae732ed2
+  MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 107fd5321fc551f1ecbfd464a571882c3ed9b1f1
+PODFILE CHECKSUM: 76fa2981ba42b0d35896e0ecbf849e62a2249b74
 
 COCOAPODS: 1.9.3

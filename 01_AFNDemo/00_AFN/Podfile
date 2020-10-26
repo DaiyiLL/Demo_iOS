@@ -10,5 +10,6 @@ target '00_AFN' do
   pod 'CocoaLumberjack', '~> 3.6.2'
   pod 'DYFactoryKit',    '~> 0.1.2'
   pod 'AFNetworking',    '~> 4.0.1'
+  pod 'MyLayout',        '~> 1.9.8'
 
 end
