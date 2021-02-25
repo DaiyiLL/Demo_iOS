@@ -18,6 +18,7 @@
 		04A3012F25E2C3D800629367 /* _6_NXProxyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3012E25E2C3D800629367 /* _6_NXProxyUITests.m */; };
 		04A3014125E2C41600629367 /* AbstractProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3014025E2C41600629367 /* AbstractProxy.m */; };
 		04A3014725E47C2100629367 /* AbstractSpamMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3014625E47C2100629367 /* AbstractSpamMessages.m */; };
+		04A3015C25E55C8A00629367 /* ContentProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3015B25E55C8A00629367 /* ContentProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,9 @@
 		04A3014025E2C41600629367 /* AbstractProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProxy.m; sourceTree = "<group>"; };
 		04A3014525E47C2100629367 /* AbstractSpamMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractSpamMessages.h; sourceTree = "<group>"; };
 		04A3014625E47C2100629367 /* AbstractSpamMessages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractSpamMessages.m; sourceTree = "<group>"; };
+		04A3015A25E55C8900629367 /* ContentProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentProxy.h; sourceTree = "<group>"; };
+		04A3015B25E55C8A00629367 /* ContentProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentProxy.m; sourceTree = "<group>"; };
+		04A3016025E55CCB00629367 /* MessagesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +122,11 @@
 				04A3010E25E2C3D500629367 /* ViewController.m */,
 				04A3013F25E2C41600629367 /* AbstractProxy.h */,
 				04A3014025E2C41600629367 /* AbstractProxy.m */,
+				04A3015A25E55C8900629367 /* ContentProxy.h */,
+				04A3015B25E55C8A00629367 /* ContentProxy.m */,
 				04A3014525E47C2100629367 /* AbstractSpamMessages.h */,
 				04A3014625E47C2100629367 /* AbstractSpamMessages.m */,
+				04A3016025E55CCB00629367 /* MessagesProtocol.h */,
 				04A3011025E2C3D500629367 /* Main.storyboard */,
 				04A3011325E2C3D700629367 /* Assets.xcassets */,
 				04A3011525E2C3D700629367 /* LaunchScreen.storyboard */,
@@ -278,6 +285,7 @@
 			files = (
 				04A3014125E2C41600629367 /* AbstractProxy.m in Sources */,
 				04A3010F25E2C3D500629367 /* ViewController.m in Sources */,
+				04A3015C25E55C8A00629367 /* ContentProxy.m in Sources */,
 				04A3014725E47C2100629367 /* AbstractSpamMessages.m in Sources */,
 				04A3010925E2C3D500629367 /* AppDelegate.m in Sources */,
 				04A3011A25E2C3D700629367 /* main.m in Sources */,

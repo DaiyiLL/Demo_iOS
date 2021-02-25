@@ -6,8 +6,9 @@
 //
 
 #import "ViewController.h"
+#import "ContentProxy.h"
 
-@interface ViewController ()
+@interface ViewController () <MessagesProtocol>
 
 @end
 
@@ -16,7 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    ContentProxy *proxy = [ContentProxy alloc];
+//    proxy.delegate = self;
+    
+    [proxy helloWorld];
 }
 
+- (void)helloWorld {
+    NSLog(@"有消息处理");
+}
 
 @end
