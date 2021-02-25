@@ -18,6 +18,9 @@
 		04A3025325E7291A00629367 /* _9_BuilderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3025225E7291A00629367 /* _9_BuilderViewUITests.m */; };
 		04A3026825E7297300629367 /* DrawBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3026725E7297300629367 /* DrawBuilder.m */; };
 		04A3027125E7298800629367 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3027025E7298800629367 /* DrawView.m */; };
+		04A3027725E7FA5600629367 /* DrawSubBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3027625E7FA5600629367 /* DrawSubBuilder.m */; };
+		04A3027D25E7FDAD00629367 /* DrawSubBuilderTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3027C25E7FDAD00629367 /* DrawSubBuilderTwo.m */; };
+		04A3028325E7FEC400629367 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3028225E7FEC400629367 /* Director.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		04A3026725E7297300629367 /* DrawBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBuilder.m; sourceTree = "<group>"; };
 		04A3026F25E7298800629367 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		04A3027025E7298800629367 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		04A3027525E7FA5600629367 /* DrawSubBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawSubBuilder.h; sourceTree = "<group>"; };
+		04A3027625E7FA5600629367 /* DrawSubBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawSubBuilder.m; sourceTree = "<group>"; };
+		04A3027B25E7FDAD00629367 /* DrawSubBuilderTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawSubBuilderTwo.h; sourceTree = "<group>"; };
+		04A3027C25E7FDAD00629367 /* DrawSubBuilderTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawSubBuilderTwo.m; sourceTree = "<group>"; };
+		04A3028125E7FEC400629367 /* Director.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		04A3028225E7FEC400629367 /* Director.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +167,8 @@
 		04A3026425E7292C00629367 /* Director */ = {
 			isa = PBXGroup;
 			children = (
+				04A3028125E7FEC400629367 /* Director.h */,
+				04A3028225E7FEC400629367 /* Director.m */,
 			);
 			path = Director;
 			sourceTree = "<group>";
@@ -167,6 +178,10 @@
 			children = (
 				04A3026625E7297300629367 /* DrawBuilder.h */,
 				04A3026725E7297300629367 /* DrawBuilder.m */,
+				04A3027525E7FA5600629367 /* DrawSubBuilder.h */,
+				04A3027625E7FA5600629367 /* DrawSubBuilder.m */,
+				04A3027B25E7FDAD00629367 /* DrawSubBuilderTwo.h */,
+				04A3027C25E7FDAD00629367 /* DrawSubBuilderTwo.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -301,11 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A3026825E7297300629367 /* DrawBuilder.m in Sources */,
+				04A3027725E7FA5600629367 /* DrawSubBuilder.m in Sources */,
 				04A3023325E7291600629367 /* ViewController.m in Sources */,
 				04A3027125E7298800629367 /* DrawView.m in Sources */,
+				04A3028325E7FEC400629367 /* Director.m in Sources */,
 				04A3022D25E7291600629367 /* AppDelegate.m in Sources */,
 				04A3023E25E7291900629367 /* main.m in Sources */,
 				04A3023025E7291600629367 /* SceneDelegate.m in Sources */,
+				04A3027D25E7FDAD00629367 /* DrawSubBuilderTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
