@@ -1,0 +1,6 @@
+framework module Pods_13_UserResponsibility {
+  umbrella header "Pods-13_UserResponsibility-umbrella.h"
+
+  export *
+  module * { export * }
+}

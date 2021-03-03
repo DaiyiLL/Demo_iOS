@@ -16,6 +16,11 @@
 		04A303B525EE8C9700629367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303B425EE8C9700629367 /* main.m */; };
 		04A303BF25EE8C9700629367 /* _3_ResponsibilityDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303BE25EE8C9700629367 /* _3_ResponsibilityDemoTests.m */; };
 		04A303CA25EE8C9700629367 /* _3_ResponsibilityDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303C925EE8C9700629367 /* _3_ResponsibilityDemoUITests.m */; };
+		04A303DC25EE8DC300629367 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303DB25EE8DC300629367 /* Handler.m */; };
+		04A303E225EE8E0800629367 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303E125EE8E0800629367 /* Person.m */; };
+		04A303E825EE8EB700629367 /* ConcreateHandlerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303E725EE8EB700629367 /* ConcreateHandlerOne.m */; };
+		04A303EE25EE8ECB00629367 /* ConcreateHandlerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303ED25EE8ECB00629367 /* ConcreateHandlerTwo.m */; };
+		04A303F425EE8ED600629367 /* ConcreateHandlerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A303F325EE8ED600629367 /* ConcreateHandlerThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		04A303C525EE8C9700629367 /* 13_ResponsibilityDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 13_ResponsibilityDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A303C925EE8C9700629367 /* _3_ResponsibilityDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_ResponsibilityDemoUITests.m; sourceTree = "<group>"; };
 		04A303CB25EE8C9700629367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A303DA25EE8DC300629367 /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		04A303DB25EE8DC300629367 /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		04A303E025EE8E0800629367 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04A303E125EE8E0800629367 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04A303E625EE8EB700629367 /* ConcreateHandlerOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateHandlerOne.h; sourceTree = "<group>"; };
+		04A303E725EE8EB700629367 /* ConcreateHandlerOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateHandlerOne.m; sourceTree = "<group>"; };
+		04A303EC25EE8ECB00629367 /* ConcreateHandlerTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateHandlerTwo.h; sourceTree = "<group>"; };
+		04A303ED25EE8ECB00629367 /* ConcreateHandlerTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateHandlerTwo.m; sourceTree = "<group>"; };
+		04A303F225EE8ED600629367 /* ConcreateHandlerThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateHandlerThree.h; sourceTree = "<group>"; };
+		04A303F325EE8ED600629367 /* ConcreateHandlerThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateHandlerThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,16 @@
 				04A303A625EE8C9500629367 /* SceneDelegate.m */,
 				04A303A825EE8C9500629367 /* ViewController.h */,
 				04A303A925EE8C9500629367 /* ViewController.m */,
+				04A303DA25EE8DC300629367 /* Handler.h */,
+				04A303DB25EE8DC300629367 /* Handler.m */,
+				04A303E025EE8E0800629367 /* Person.h */,
+				04A303E125EE8E0800629367 /* Person.m */,
+				04A303E625EE8EB700629367 /* ConcreateHandlerOne.h */,
+				04A303E725EE8EB700629367 /* ConcreateHandlerOne.m */,
+				04A303EC25EE8ECB00629367 /* ConcreateHandlerTwo.h */,
+				04A303ED25EE8ECB00629367 /* ConcreateHandlerTwo.m */,
+				04A303F225EE8ED600629367 /* ConcreateHandlerThree.h */,
+				04A303F325EE8ED600629367 /* ConcreateHandlerThree.m */,
 				04A303AB25EE8C9500629367 /* Main.storyboard */,
 				04A303AE25EE8C9700629367 /* Assets.xcassets */,
 				04A303B025EE8C9700629367 /* LaunchScreen.storyboard */,
@@ -266,10 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A303F425EE8ED600629367 /* ConcreateHandlerThree.m in Sources */,
+				04A303E225EE8E0800629367 /* Person.m in Sources */,
 				04A303AA25EE8C9500629367 /* ViewController.m in Sources */,
 				04A303A425EE8C9500629367 /* AppDelegate.m in Sources */,
+				04A303E825EE8EB700629367 /* ConcreateHandlerOne.m in Sources */,
+				04A303EE25EE8ECB00629367 /* ConcreateHandlerTwo.m in Sources */,
 				04A303B525EE8C9700629367 /* main.m in Sources */,
 				04A303A725EE8C9500629367 /* SceneDelegate.m in Sources */,
+				04A303DC25EE8DC300629367 /* Handler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
