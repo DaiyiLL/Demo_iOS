@@ -17,6 +17,8 @@
 		04A3050625EF162300629367 /* _4_GameDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3050525EF162300629367 /* _4_GameDemoTests.m */; };
 		04A3051125EF162300629367 /* _4_GameDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3051025EF162300629367 /* _4_GameDemoUITests.m */; };
 		04A3052325EF16C800629367 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3052225EF16C800629367 /* Game.m */; };
+		04A3052925EFD0B500629367 /* FootBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3052825EFD0B500629367 /* FootBall.m */; };
+		04A3052F25EFD12000629367 /* BasketBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3052E25EFD12000629367 /* BasketBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		04A3051225EF162300629367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A3052125EF16C800629367 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		04A3052225EF16C800629367 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		04A3052725EFD0B500629367 /* FootBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootBall.h; sourceTree = "<group>"; };
+		04A3052825EFD0B500629367 /* FootBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootBall.m; sourceTree = "<group>"; };
+		04A3052D25EFD12000629367 /* BasketBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasketBall.h; sourceTree = "<group>"; };
+		04A3052E25EFD12000629367 /* BasketBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasketBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				04A304F025EF161F00629367 /* ViewController.m */,
 				04A3052125EF16C800629367 /* Game.h */,
 				04A3052225EF16C800629367 /* Game.m */,
+				04A3052725EFD0B500629367 /* FootBall.h */,
+				04A3052825EFD0B500629367 /* FootBall.m */,
+				04A3052D25EFD12000629367 /* BasketBall.h */,
+				04A3052E25EFD12000629367 /* BasketBall.m */,
 				04A304F225EF161F00629367 /* Main.storyboard */,
 				04A304F525EF162300629367 /* Assets.xcassets */,
 				04A304F725EF162300629367 /* LaunchScreen.storyboard */,
@@ -271,10 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A3052F25EFD12000629367 /* BasketBall.m in Sources */,
 				04A3052325EF16C800629367 /* Game.m in Sources */,
 				04A304F125EF161F00629367 /* ViewController.m in Sources */,
 				04A304EB25EF161F00629367 /* AppDelegate.m in Sources */,
 				04A304FC25EF162300629367 /* main.m in Sources */,
+				04A3052925EFD0B500629367 /* FootBall.m in Sources */,
 				04A304EE25EF161F00629367 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
