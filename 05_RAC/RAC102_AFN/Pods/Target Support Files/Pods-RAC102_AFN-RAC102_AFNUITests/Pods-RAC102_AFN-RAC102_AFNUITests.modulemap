@@ -1,0 +1,6 @@
+framework module Pods_RAC102_AFN_RAC102_AFNUITests {
+  umbrella header "Pods-RAC102_AFN-RAC102_AFNUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-RAC102_AFN-RAC102_AFNUITests/Pods-RAC102_AFN-RAC102_AFNUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
