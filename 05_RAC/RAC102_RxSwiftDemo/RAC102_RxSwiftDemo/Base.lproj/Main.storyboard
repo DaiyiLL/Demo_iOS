@@ -31,7 +31,7 @@
         <scene sceneID="ZdM-Db-Wuq">
             <objects>
                 <navigationController title="First" id="TDX-KD-cxV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Frist" id="BT9-Rc-bsP"/>
+                    <tabBarItem key="tabBarItem" title="Frist" image="homekit" catalog="system" selectedImage="homekit" id="BT9-Rc-bsP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ifa-nx-4iX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -44,27 +44,27 @@
             </objects>
             <point key="canvasLocation" x="661" y="-652"/>
         </scene>
-        <!--First View Controller-->
+        <!--First-->
         <scene sceneID="2KO-26-B5h">
             <objects>
-                <viewController id="Zb2-9m-iLu" customClass="FirstViewController" customModule="RAC102_RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="First" id="Zb2-9m-iLu" customClass="FirstViewController" customModule="RAC102_RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S3M-eA-Kyt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="jyy-id-qrV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ab6-F0-R4d"/>
+                    <navigationItem key="navigationItem" title="First" id="Ab6-F0-R4d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nyl-RX-vtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1490" y="-664"/>
         </scene>
-        <!--Item-->
+        <!--Third-->
         <scene sceneID="np1-c2-Ybc">
             <objects>
-                <navigationController id="3qL-hT-HHJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3Tj-d7-bng"/>
+                <navigationController title="Third" id="3qL-hT-HHJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Third" image="scribble" catalog="system" selectedImage="scribble.variable" id="3Tj-d7-bng"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="R9g-0I-2db">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -77,17 +77,17 @@
             </objects>
             <point key="canvasLocation" x="559" y="768"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Third-->
         <scene sceneID="wI7-gj-dbT">
             <objects>
-                <viewController id="rHR-Ts-F1R" customClass="ThirdViewController" customModule="RAC102_RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Third" id="rHR-Ts-F1R" customClass="ThirdViewController" customModule="RAC102_RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vo7-ho-FOw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Rt4-be-8JJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="l2L-vF-YA6"/>
+                    <navigationItem key="navigationItem" title="Third" id="l2L-vF-YA6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBl-xL-tZR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,7 +97,7 @@
         <scene sceneID="90U-ZB-WeP">
             <objects>
                 <navigationController title="Second" id="MQU-eC-BHo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Lef-10-k65"/>
+                    <tabBarItem key="tabBarItem" title="Second" image="pencil.circle" catalog="system" selectedImage="pencil.circle.fill" id="Lef-10-k65"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zXH-H1-f2P">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -110,17 +110,17 @@
             </objects>
             <point key="canvasLocation" x="661" y="64"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Second-->
         <scene sceneID="pOL-nw-oB2">
             <objects>
-                <viewController id="sy9-PH-B4U" customClass="SecondViewController" customModule="RAC102_RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Second" id="sy9-PH-B4U" customClass="SecondViewController" customModule="RAC102_RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wUI-Rg-qbP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ajx-uI-TKk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="k5R-xj-RQd"/>
+                    <navigationItem key="navigationItem" title="Second" id="k5R-xj-RQd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4SV-aP-Dpj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -128,6 +128,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="pencil.circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="scribble" catalog="system" width="128" height="118"/>
+        <image name="scribble.variable" catalog="system" width="128" height="118"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -16,6 +16,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.title = "First"
         
         let numberSquence = Observable.just(5)
         numberSquence.subscribe(onNext: { [weak self](value) in
