@@ -17,6 +17,7 @@
 		04A308E225FAE6AC00629367 /* RAC102_RxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A308E125FAE6AC00629367 /* RAC102_RxSwiftDemoUITests.swift */; };
 		04A308FF25FAF3B700629367 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A308FE25FAF3B700629367 /* SecondViewController.swift */; };
 		04A3090725FAF3D500629367 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3090625FAF3D500629367 /* ThirdViewController.swift */; };
+		04A3091025FE6A3800629367 /* AddNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3090F25FE6A3800629367 /* AddNameVC.swift */; };
 		3C3FBBED2761A02295421089 /* Pods_RAC102_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD7FE9CAF1C7CA8A50AD0DB /* Pods_RAC102_RxSwiftDemo.framework */; };
 		5729FDB12FC17E8EB6F61E13 /* Pods_RAC102_RxSwiftDemo_RAC102_RxSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E637AF0EEF4E205EF5AC2E7 /* Pods_RAC102_RxSwiftDemo_RAC102_RxSwiftDemoUITests.framework */; };
 		852A370F4D17059B79E1E54C /* Pods_RAC102_RxSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA31580C433913CF8166072 /* Pods_RAC102_RxSwiftDemoTests.framework */; };
@@ -56,6 +57,7 @@
 		04A308E325FAE6AC00629367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A308FE25FAF3B700629367 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		04A3090625FAF3D500629367 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		04A3090F25FE6A3800629367 /* AddNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameVC.swift; sourceTree = "<group>"; };
 		2DA31580C433913CF8166072 /* Pods_RAC102_RxSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC102_RxSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3604A0A015E22E5A13729D67 /* Pods-RAC102_RxSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC102_RxSwiftDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RAC102_RxSwiftDemoTests/Pods-RAC102_RxSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		3BD7FE9CAF1C7CA8A50AD0DB /* Pods_RAC102_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC102_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				04A308C325FAE6AA00629367 /* FirstViewController.swift */,
 				04A308FE25FAF3B700629367 /* SecondViewController.swift */,
 				04A3090625FAF3D500629367 /* ThirdViewController.swift */,
+				04A3090F25FE6A3800629367 /* AddNameVC.swift */,
 				04A308C525FAE6AA00629367 /* Main.storyboard */,
 				04A308C825FAE6AC00629367 /* Assets.xcassets */,
 				04A308CA25FAE6AC00629367 /* LaunchScreen.storyboard */,
@@ -415,6 +418,7 @@
 				04A308FF25FAF3B700629367 /* SecondViewController.swift in Sources */,
 				04A308C425FAE6AA00629367 /* FirstViewController.swift in Sources */,
 				04A3090725FAF3D500629367 /* ThirdViewController.swift in Sources */,
+				04A3091025FE6A3800629367 /* AddNameVC.swift in Sources */,
 				04A308C025FAE6AA00629367 /* AppDelegate.swift in Sources */,
 				04A308C225FAE6AA00629367 /* SceneDelegate.swift in Sources */,
 			);
