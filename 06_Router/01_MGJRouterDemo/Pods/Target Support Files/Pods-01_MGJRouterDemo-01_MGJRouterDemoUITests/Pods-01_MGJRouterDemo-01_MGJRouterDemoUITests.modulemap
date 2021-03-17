@@ -1,0 +1,6 @@
+framework module Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests {
+  umbrella header "Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
