@@ -1,0 +1,6 @@
+framework module Pods_RXSwift103_CollectionDemo_RXSwift103_CollectionDemoUITests {
+  umbrella header "Pods-RXSwift103_CollectionDemo-RXSwift103_CollectionDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

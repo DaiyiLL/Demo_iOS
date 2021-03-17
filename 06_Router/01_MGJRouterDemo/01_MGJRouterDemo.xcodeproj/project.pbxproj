@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0478A01F26025614004D6CF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A01E26025614004D6CF0 /* AppDelegate.m */; };
+		0478A02226025614004D6CF0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A02126025614004D6CF0 /* SceneDelegate.m */; };
+		0478A02526025614004D6CF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A02426025614004D6CF0 /* ViewController.m */; };
+		0478A02826025614004D6CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478A02626025614004D6CF0 /* Main.storyboard */; };
+		0478A02A26025615004D6CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0478A02926025615004D6CF0 /* Assets.xcassets */; };
+		0478A02D26025615004D6CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478A02B26025615004D6CF0 /* LaunchScreen.storyboard */; };
+		0478A03026025615004D6CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A02F26025615004D6CF0 /* main.m */; };
+		0478A03A26025615004D6CF0 /* _1_MGJRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A03926025615004D6CF0 /* _1_MGJRouterDemoTests.m */; };
+		0478A04526025616004D6CF0 /* _1_MGJRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A04426025616004D6CF0 /* _1_MGJRouterDemoUITests.m */; };
+		0478A06126025734004D6CF0 /* DYIndexMGJRouterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A06026025734004D6CF0 /* DYIndexMGJRouterAPI.m */; };
+		0478A067260257CB004D6CF0 /* DYIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478A066260257CB004D6CF0 /* DYIndexViewController.m */; };
+		099FE7254CF39D6F308397F6 /* Pods_01_MGJRouterDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CAA07723C692FDEBD480D9 /* Pods_01_MGJRouterDemoTests.framework */; };
+		2DD4D32910262FD5DB2A3A08 /* Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947029DBD251D9B5D07CD863 /* Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests.framework */; };
+		ECD2D3FB3E6E5016D288A1BA /* Pods_01_MGJRouterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE2B0219FA49F5A14E4FAB8 /* Pods_01_MGJRouterDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0478A03626025615004D6CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0478A01226025614004D6CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0478A01926025614004D6CF0;
+			remoteInfo = 01_MGJRouterDemo;
+		};
+		0478A04126025616004D6CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0478A01226025614004D6CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0478A01926025614004D6CF0;
+			remoteInfo = 01_MGJRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0478A01A26025614004D6CF0 /* 01_MGJRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_MGJRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478A01D26025614004D6CF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0478A01E26025614004D6CF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0478A02026025614004D6CF0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0478A02126025614004D6CF0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0478A02326025614004D6CF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0478A02426025614004D6CF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0478A02726025614004D6CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0478A02926025615004D6CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0478A02C26025615004D6CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0478A02E26025615004D6CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478A02F26025615004D6CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0478A03526025615004D6CF0 /* 01_MGJRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_MGJRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478A03926025615004D6CF0 /* _1_MGJRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_MGJRouterDemoTests.m; sourceTree = "<group>"; };
+		0478A03B26025615004D6CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478A04026025616004D6CF0 /* 01_MGJRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_MGJRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478A04426025616004D6CF0 /* _1_MGJRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_MGJRouterDemoUITests.m; sourceTree = "<group>"; };
+		0478A04626025616004D6CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478A05F26025734004D6CF0 /* DYIndexMGJRouterAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYIndexMGJRouterAPI.h; sourceTree = "<group>"; };
+		0478A06026025734004D6CF0 /* DYIndexMGJRouterAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYIndexMGJRouterAPI.m; sourceTree = "<group>"; };
+		0478A065260257CB004D6CF0 /* DYIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYIndexViewController.h; sourceTree = "<group>"; };
+		0478A066260257CB004D6CF0 /* DYIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYIndexViewController.m; sourceTree = "<group>"; };
+		2AE2B0219FA49F5A14E4FAB8 /* Pods_01_MGJRouterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_MGJRouterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30479437DE89AD7CA734A164 /* Pods-01_MGJRouterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_MGJRouterDemoTests.release.xcconfig"; path = "Target Support Files/Pods-01_MGJRouterDemoTests/Pods-01_MGJRouterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		35A6AAA3CF04D3F4F997A7B1 /* Pods-01_MGJRouterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_MGJRouterDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-01_MGJRouterDemoTests/Pods-01_MGJRouterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39E929E87B3EF9F3C1DCCFEA /* Pods-01_MGJRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_MGJRouterDemo.debug.xcconfig"; path = "Target Support Files/Pods-01_MGJRouterDemo/Pods-01_MGJRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		71CAA07723C692FDEBD480D9 /* Pods_01_MGJRouterDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_MGJRouterDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		756B0CD3EBF522E2A3087DEC /* Pods-01_MGJRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_MGJRouterDemo.release.xcconfig"; path = "Target Support Files/Pods-01_MGJRouterDemo/Pods-01_MGJRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		947029DBD251D9B5D07CD863 /* Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8779919633DAD0D5271965F /* Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F74A296E08108A5C7543D411 /* Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0478A01726025614004D6CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2D3FB3E6E5016D288A1BA /* Pods_01_MGJRouterDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478A03226025615004D6CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099FE7254CF39D6F308397F6 /* Pods_01_MGJRouterDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478A03D26025616004D6CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD4D32910262FD5DB2A3A08 /* Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0478A01126025614004D6CF0 = {
+			isa = PBXGroup;
+			children = (
+				0478A01C26025614004D6CF0 /* 01_MGJRouterDemo */,
+				0478A03826025615004D6CF0 /* 01_MGJRouterDemoTests */,
+				0478A04326025616004D6CF0 /* 01_MGJRouterDemoUITests */,
+				0478A01B26025614004D6CF0 /* Products */,
+				E074956E30E91B87C1EEE197 /* Pods */,
+				81A3ECA2ACB53C5873BC8EE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0478A01B26025614004D6CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0478A01A26025614004D6CF0 /* 01_MGJRouterDemo.app */,
+				0478A03526025615004D6CF0 /* 01_MGJRouterDemoTests.xctest */,
+				0478A04026025616004D6CF0 /* 01_MGJRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0478A01C26025614004D6CF0 /* 01_MGJRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0478A01D26025614004D6CF0 /* AppDelegate.h */,
+				0478A01E26025614004D6CF0 /* AppDelegate.m */,
+				0478A02026025614004D6CF0 /* SceneDelegate.h */,
+				0478A02126025614004D6CF0 /* SceneDelegate.m */,
+				0478A02326025614004D6CF0 /* ViewController.h */,
+				0478A02426025614004D6CF0 /* ViewController.m */,
+				0478A065260257CB004D6CF0 /* DYIndexViewController.h */,
+				0478A066260257CB004D6CF0 /* DYIndexViewController.m */,
+				0478A05F26025734004D6CF0 /* DYIndexMGJRouterAPI.h */,
+				0478A06026025734004D6CF0 /* DYIndexMGJRouterAPI.m */,
+				0478A02626025614004D6CF0 /* Main.storyboard */,
+				0478A02926025615004D6CF0 /* Assets.xcassets */,
+				0478A02B26025615004D6CF0 /* LaunchScreen.storyboard */,
+				0478A02E26025615004D6CF0 /* Info.plist */,
+				0478A02F26025615004D6CF0 /* main.m */,
+			);
+			path = 01_MGJRouterDemo;
+			sourceTree = "<group>";
+		};
+		0478A03826025615004D6CF0 /* 01_MGJRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0478A03926025615004D6CF0 /* _1_MGJRouterDemoTests.m */,
+				0478A03B26025615004D6CF0 /* Info.plist */,
+			);
+			path = 01_MGJRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		0478A04326025616004D6CF0 /* 01_MGJRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0478A04426025616004D6CF0 /* _1_MGJRouterDemoUITests.m */,
+				0478A04626025616004D6CF0 /* Info.plist */,
+			);
+			path = 01_MGJRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		81A3ECA2ACB53C5873BC8EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B0219FA49F5A14E4FAB8 /* Pods_01_MGJRouterDemo.framework */,
+				947029DBD251D9B5D07CD863 /* Pods_01_MGJRouterDemo_01_MGJRouterDemoUITests.framework */,
+				71CAA07723C692FDEBD480D9 /* Pods_01_MGJRouterDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E074956E30E91B87C1EEE197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39E929E87B3EF9F3C1DCCFEA /* Pods-01_MGJRouterDemo.debug.xcconfig */,
+				756B0CD3EBF522E2A3087DEC /* Pods-01_MGJRouterDemo.release.xcconfig */,
+				F74A296E08108A5C7543D411 /* Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.debug.xcconfig */,
+				B8779919633DAD0D5271965F /* Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.release.xcconfig */,
+				35A6AAA3CF04D3F4F997A7B1 /* Pods-01_MGJRouterDemoTests.debug.xcconfig */,
+				30479437DE89AD7CA734A164 /* Pods-01_MGJRouterDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0478A01926025614004D6CF0 /* 01_MGJRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478A04926025616004D6CF0 /* Build configuration list for PBXNativeTarget "01_MGJRouterDemo" */;
+			buildPhases = (
+				C1C98AA67A77187778642781 /* [CP] Check Pods Manifest.lock */,
+				0478A01626025614004D6CF0 /* Sources */,
+				0478A01726025614004D6CF0 /* Frameworks */,
+				0478A01826025614004D6CF0 /* Resources */,
+				FFBA23B28BDEA3A64E5ECD40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 01_MGJRouterDemo;
+			productName = 01_MGJRouterDemo;
+			productReference = 0478A01A26025614004D6CF0 /* 01_MGJRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0478A03426025615004D6CF0 /* 01_MGJRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478A04C26025616004D6CF0 /* Build configuration list for PBXNativeTarget "01_MGJRouterDemoTests" */;
+			buildPhases = (
+				7A0399F2ACFB6744E6A1284F /* [CP] Check Pods Manifest.lock */,
+				0478A03126025615004D6CF0 /* Sources */,
+				0478A03226025615004D6CF0 /* Frameworks */,
+				0478A03326025615004D6CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0478A03726025615004D6CF0 /* PBXTargetDependency */,
+			);
+			name = 01_MGJRouterDemoTests;
+			productName = 01_MGJRouterDemoTests;
+			productReference = 0478A03526025615004D6CF0 /* 01_MGJRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0478A03F26025616004D6CF0 /* 01_MGJRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478A04F26025616004D6CF0 /* Build configuration list for PBXNativeTarget "01_MGJRouterDemoUITests" */;
+			buildPhases = (
+				01B2578E4E78A6EE979A8F81 /* [CP] Check Pods Manifest.lock */,
+				0478A03C26025616004D6CF0 /* Sources */,
+				0478A03D26025616004D6CF0 /* Frameworks */,
+				0478A03E26025616004D6CF0 /* Resources */,
+				67F0363C22E7E748B62C1475 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0478A04226025616004D6CF0 /* PBXTargetDependency */,
+			);
+			name = 01_MGJRouterDemoUITests;
+			productName = 01_MGJRouterDemoUITests;
+			productReference = 0478A04026025616004D6CF0 /* 01_MGJRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0478A01226025614004D6CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0478A01926025614004D6CF0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0478A03426025615004D6CF0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0478A01926025614004D6CF0;
+					};
+					0478A03F26025616004D6CF0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0478A01926025614004D6CF0;
+					};
+				};
+			};
+			buildConfigurationList = 0478A01526025614004D6CF0 /* Build configuration list for PBXProject "01_MGJRouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0478A01126025614004D6CF0;
+			productRefGroup = 0478A01B26025614004D6CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0478A01926025614004D6CF0 /* 01_MGJRouterDemo */,
+				0478A03426025615004D6CF0 /* 01_MGJRouterDemoTests */,
+				0478A03F26025616004D6CF0 /* 01_MGJRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0478A01826025614004D6CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478A02D26025615004D6CF0 /* LaunchScreen.storyboard in Resources */,
+				0478A02A26025615004D6CF0 /* Assets.xcassets in Resources */,
+				0478A02826025614004D6CF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478A03326025615004D6CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478A03E26025616004D6CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B2578E4E78A6EE979A8F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F0363C22E7E748B62C1475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests/Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0399F2ACFB6744E6A1284F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01_MGJRouterDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C98AA67A77187778642781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01_MGJRouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBA23B28BDEA3A64E5ECD40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-01_MGJRouterDemo/Pods-01_MGJRouterDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-01_MGJRouterDemo/Pods-01_MGJRouterDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-01_MGJRouterDemo/Pods-01_MGJRouterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0478A01626025614004D6CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478A067260257CB004D6CF0 /* DYIndexViewController.m in Sources */,
+				0478A06126025734004D6CF0 /* DYIndexMGJRouterAPI.m in Sources */,
+				0478A02526025614004D6CF0 /* ViewController.m in Sources */,
+				0478A01F26025614004D6CF0 /* AppDelegate.m in Sources */,
+				0478A03026025615004D6CF0 /* main.m in Sources */,
+				0478A02226025614004D6CF0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478A03126025615004D6CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478A03A26025615004D6CF0 /* _1_MGJRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478A03C26025616004D6CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478A04526025616004D6CF0 /* _1_MGJRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0478A03726025615004D6CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0478A01926025614004D6CF0 /* 01_MGJRouterDemo */;
+			targetProxy = 0478A03626025615004D6CF0 /* PBXContainerItemProxy */;
+		};
+		0478A04226025616004D6CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0478A01926025614004D6CF0 /* 01_MGJRouterDemo */;
+			targetProxy = 0478A04126025616004D6CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0478A02626025614004D6CF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478A02726025614004D6CF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0478A02B26025615004D6CF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478A02C26025615004D6CF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0478A04726025616004D6CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0478A04826025616004D6CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0478A04A26025616004D6CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E929E87B3EF9F3C1DCCFEA /* Pods-01_MGJRouterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 01_MGJRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-1-MGJRouterDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0478A04B26025616004D6CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756B0CD3EBF522E2A3087DEC /* Pods-01_MGJRouterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 01_MGJRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-1-MGJRouterDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0478A04D26025616004D6CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A6AAA3CF04D3F4F997A7B1 /* Pods-01_MGJRouterDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 01_MGJRouterDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-1-MGJRouterDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_MGJRouterDemo.app/01_MGJRouterDemo";
+			};
+			name = Debug;
+		};
+		0478A04E26025616004D6CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30479437DE89AD7CA734A164 /* Pods-01_MGJRouterDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 01_MGJRouterDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-1-MGJRouterDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_MGJRouterDemo.app/01_MGJRouterDemo";
+			};
+			name = Release;
+		};
+		0478A05026025616004D6CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74A296E08108A5C7543D411 /* Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 01_MGJRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-1-MGJRouterDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 01_MGJRouterDemo;
+			};
+			name = Debug;
+		};
+		0478A05126025616004D6CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8779919633DAD0D5271965F /* Pods-01_MGJRouterDemo-01_MGJRouterDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 01_MGJRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-1-MGJRouterDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 01_MGJRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0478A01526025614004D6CF0 /* Build configuration list for PBXProject "01_MGJRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478A04726025616004D6CF0 /* Debug */,
+				0478A04826025616004D6CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478A04926025616004D6CF0 /* Build configuration list for PBXNativeTarget "01_MGJRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478A04A26025616004D6CF0 /* Debug */,
+				0478A04B26025616004D6CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478A04C26025616004D6CF0 /* Build configuration list for PBXNativeTarget "01_MGJRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478A04D26025616004D6CF0 /* Debug */,
+				0478A04E26025616004D6CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478A04F26025616004D6CF0 /* Build configuration list for PBXNativeTarget "01_MGJRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478A05026025616004D6CF0 /* Debug */,
+				0478A05126025616004D6CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0478A01226025614004D6CF0 /* Project object */;
+}

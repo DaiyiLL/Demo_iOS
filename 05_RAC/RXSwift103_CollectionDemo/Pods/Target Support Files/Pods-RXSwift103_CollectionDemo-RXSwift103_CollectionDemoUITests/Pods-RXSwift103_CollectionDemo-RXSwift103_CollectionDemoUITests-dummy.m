@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RXSwift103_CollectionDemo_RXSwift103_CollectionDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RXSwift103_CollectionDemo_RXSwift103_CollectionDemoUITests
+@end
