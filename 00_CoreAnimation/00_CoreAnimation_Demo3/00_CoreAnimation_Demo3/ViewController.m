@@ -26,7 +26,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    /*
+    
     _index ++;
     NSString *imgName = _imgs[_index % _imgs.count];
     _iconView.image = [UIImage imageNamed:imgName];
@@ -34,11 +34,12 @@
     // 转场动画
     CATransition *anim = [CATransition animation];
     [anim setType:@"pageCurl"];
+//    [anim setType:@"suckEffect"];
     anim.duration = 0.5;
     anim.startProgress = 0.2;
     anim.endProgress = 0.5;
     [_iconView.layer addAnimation:anim forKey:@"suckEffect"];
-     */
+     
     
     [self test];
 }

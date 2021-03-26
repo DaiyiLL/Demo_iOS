@@ -25,6 +25,18 @@
     // Do any additional setup after loading the view.
     
 //    [self test];
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        [self demo];
+    });
+}
+
+- (void)demo {
+    [self performSelector:@selector(demo01) withObject:nil afterDelay:1];
+    [[NSRunLoop currentRunLoop] run];
+}
+
+- (void)demo01 {
+    NSLog(@"54325432543254325432543");
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -64,6 +76,8 @@
     anim.path = path.CGPath;
     anim.duration = 4.0;
     anim.rotationMode = kCAAnimationRotateAuto;
+    anim.removedOnCompletion = NO;
+    anim.fillMode = kCAFillModeForwards;
     [carLayer addAnimation:anim forKey:nil];
 }
 

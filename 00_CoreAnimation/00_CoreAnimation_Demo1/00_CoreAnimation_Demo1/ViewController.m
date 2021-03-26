@@ -43,22 +43,22 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    _layer.frame = CGRectMake(100, 400, 100, 100);
-    _layer.backgroundColor = [UIColor orangeColor].CGColor;
+//    _layer.frame = CGRectMake(100, 400, 100, 100);
+//    _layer.backgroundColor = [UIColor orangeColor].CGColor;
 //    CGPoint p = [[touches anyObject] locationInView:self.view];
 //    if (_redView.layer.presentationLayer == [_redView.layer hitTest:p]) {
 //        NSLog(@"1");
 //    }
 //    // 修改模型图层
-//    _redView.frame = CGRectMake(50, 400, 100, 100);
-//    CABasicAnimation *anim = [CABasicAnimation animation];
-//    anim.keyPath = @"position.y";
-////    anim.toValue = @400;
-//    anim.duration = 1;
-//    anim.removedOnCompletion = NO;
-//    anim.delegate = self;
-////    anim.fillMode = kCAFillModeForwards;
-//    [_redView.layer addAnimation:anim forKey:nil];
+    _redView.frame = CGRectMake(50, 400, 100, 100);
+    CABasicAnimation *anim = [CABasicAnimation animation];
+    anim.keyPath = @"position.y";
+//    anim.toValue = @400;
+    anim.duration = 1;
+    anim.removedOnCompletion = NO;
+    anim.delegate = self;
+//    anim.fillMode = kCAFillModeForwards;
+    [_redView.layer addAnimation:anim forKey:nil];
 }
 
 #pragma mark - 所有的代理方法------------------------------------

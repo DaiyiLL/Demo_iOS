@@ -28,6 +28,23 @@
     self.blackBtn.accessibilityIdentifier = @"transition.start";
     
     
+    dispatch_queue_t concurrentQueue = dispatch_queue_create("test", DISPATCH_QUEUE_CONCURRENT);
+    for (int i = 0; i < 50; i++) {
+        dispatch_async(concurrentQueue, ^{
+//            sleep(1);
+            NSLog(@"==== %d", i);
+        });
+    }
+    dispatch_barrier_async(concurrentQueue, ^{
+        NSLog(@"================= ================");
+    });
+    for (int i = 100; i < 110; i++) {
+        dispatch_async(concurrentQueue, ^{
+//            sleep(1);
+            NSLog(@"==== %d", i);
+        });
+    }
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {

@@ -35,6 +35,7 @@ class ViewController: UIViewController {
             print("你选中的歌曲信息 【\(music)】")
         }).disposed(by: self.disposeBag);
         
+        self.begin()
     }
     
     private(set) lazy var tableView: UITableView = {
@@ -47,6 +48,55 @@ class ViewController: UIViewController {
         
         return tableView;
     }()
+    
+    let concurrentQueue = DispatchQueue.init(label: "concurrentQueue", attributes: .concurrent)
+    var userCacheDic: [String: Any] = [:]
+
+    func begin(){
+       let key = "obj_key"
+       DispatchQueue.global().async {
+           let _:Any? =  self.getObject(key: key)//读
+       }
+       DispatchQueue.global().async {
+           let _:Any? =  self.getObject(key: key)//读
+       }
+       DispatchQueue.global().async {
+           let _:Any? =  self.getObject(key: key)//读
+       }
+       DispatchQueue.global().async {
+           self.setObject(obj: "obj", key: key)//写
+       }
+       DispatchQueue.global().async {
+           let _:Any? =  self.getObject(key: key)//读
+       }
+       DispatchQueue.global().async {
+           let _:Any? =  self.getObject(key: key)//读
+       }
+        DispatchQueue.global().async {
+            let _:Any? =  self.getObject(key: key)//读
+        }
+        DispatchQueue.global().async {
+            let _:Any? =  self.getObject(key: key)//读
+        }
+    }
+
+    //写
+    func setObject(obj:Any, key:String){
+       concurrentQueue.async(flags: .barrier){
+           print("正在写入。。")
+           self.userCacheDic[key] = obj
+       }
+    }
+
+    //读
+    func getObject(key:String) -> Any?{
+       var obj:Any? = nil
+       concurrentQueue.sync {
+           obj = self.userCacheDic[key]
+           print("obj == \(String(describing: obj)) Thread == \(Thread.current)")
+       }
+       return obj
+    }
 
 
 }
