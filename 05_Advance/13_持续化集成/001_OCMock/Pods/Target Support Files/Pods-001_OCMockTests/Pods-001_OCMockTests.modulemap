@@ -1,0 +1,6 @@
+framework module Pods_001_OCMockTests {
+  umbrella header "Pods-001_OCMockTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
