@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046EDF51262E760900EE1105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046EDF50262E760900EE1105 /* Assets.xcassets */; };
+		046EDF54262E760900EE1105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046EDF52262E760900EE1105 /* Main.storyboard */; };
+		046EDF62262E760900EE1105 /* _01_TrangleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EDF61262E760900EE1105 /* _01_TrangleDemoTests.m */; };
+		046EDF6D262E760900EE1105 /* _01_TrangleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EDF6C262E760900EE1105 /* _01_TrangleDemoUITests.m */; };
+		046EDF7F262E769300EE1105 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046EDF7E262E769300EE1105 /* GLUT.framework */; };
+		046EDF81262E769A00EE1105 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046EDF80262E769A00EE1105 /* OpenGL.framework */; };
+		046EDF93262E79D700EE1105 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046EDF92262E79D700EE1105 /* libGLTools.a */; };
+		046EDF9C262E7BE800EE1105 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046EDF9A262E7BE800EE1105 /* Main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046EDF5E262E760900EE1105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046EDF3F262E760500EE1105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046EDF46262E760500EE1105;
+			remoteInfo = 001_TrangleDemo;
+		};
+		046EDF69262E760900EE1105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046EDF3F262E760500EE1105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046EDF46262E760500EE1105;
+			remoteInfo = 001_TrangleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046EDF47262E760500EE1105 /* 001_TrangleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 001_TrangleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EDF50262E760900EE1105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046EDF53262E760900EE1105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046EDF55262E760900EE1105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EDF58262E760900EE1105 /* _01_TrangleDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _01_TrangleDemo.entitlements; sourceTree = "<group>"; };
+		046EDF5D262E760900EE1105 /* 001_TrangleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 001_TrangleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EDF61262E760900EE1105 /* _01_TrangleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01_TrangleDemoTests.m; sourceTree = "<group>"; };
+		046EDF63262E760900EE1105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EDF68262E760900EE1105 /* 001_TrangleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 001_TrangleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EDF6C262E760900EE1105 /* _01_TrangleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01_TrangleDemoUITests.m; sourceTree = "<group>"; };
+		046EDF6E262E760900EE1105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EDF7E262E769300EE1105 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		046EDF80262E769A00EE1105 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		046EDF83262E79D700EE1105 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		046EDF84262E79D700EE1105 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		046EDF85262E79D700EE1105 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		046EDF86262E79D700EE1105 /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		046EDF87262E79D700EE1105 /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		046EDF88262E79D700EE1105 /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		046EDF89262E79D700EE1105 /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		046EDF8A262E79D700EE1105 /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		046EDF8B262E79D700EE1105 /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		046EDF8C262E79D700EE1105 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		046EDF8E262E79D700EE1105 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		046EDF8F262E79D700EE1105 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		046EDF90262E79D700EE1105 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		046EDF91262E79D700EE1105 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		046EDF92262E79D700EE1105 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		046EDF9A262E7BE800EE1105 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046EDF44262E760500EE1105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EDF93262E79D700EE1105 /* libGLTools.a in Frameworks */,
+				046EDF81262E769A00EE1105 /* OpenGL.framework in Frameworks */,
+				046EDF7F262E769300EE1105 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EDF5A262E760900EE1105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EDF65262E760900EE1105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046EDF3E262E760500EE1105 = {
+			isa = PBXGroup;
+			children = (
+				046EDF49262E760500EE1105 /* 001_TrangleDemo */,
+				046EDF60262E760900EE1105 /* 001_TrangleDemoTests */,
+				046EDF6B262E760900EE1105 /* 001_TrangleDemoUITests */,
+				046EDF48262E760500EE1105 /* Products */,
+				046EDF7D262E769200EE1105 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046EDF48262E760500EE1105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF47262E760500EE1105 /* 001_TrangleDemo.app */,
+				046EDF5D262E760900EE1105 /* 001_TrangleDemoTests.xctest */,
+				046EDF68262E760900EE1105 /* 001_TrangleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046EDF49262E760500EE1105 /* 001_TrangleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF82262E79D700EE1105 /* include */,
+				046EDF50262E760900EE1105 /* Assets.xcassets */,
+				046EDF52262E760900EE1105 /* Main.storyboard */,
+				046EDF55262E760900EE1105 /* Info.plist */,
+				046EDF9A262E7BE800EE1105 /* Main.cpp */,
+				046EDF58262E760900EE1105 /* _01_TrangleDemo.entitlements */,
+			);
+			path = 001_TrangleDemo;
+			sourceTree = "<group>";
+		};
+		046EDF60262E760900EE1105 /* 001_TrangleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF61262E760900EE1105 /* _01_TrangleDemoTests.m */,
+				046EDF63262E760900EE1105 /* Info.plist */,
+			);
+			path = 001_TrangleDemoTests;
+			sourceTree = "<group>";
+		};
+		046EDF6B262E760900EE1105 /* 001_TrangleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF6C262E760900EE1105 /* _01_TrangleDemoUITests.m */,
+				046EDF6E262E760900EE1105 /* Info.plist */,
+			);
+			path = 001_TrangleDemoUITests;
+			sourceTree = "<group>";
+		};
+		046EDF7D262E769200EE1105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF92262E79D700EE1105 /* libGLTools.a */,
+				046EDF80262E769A00EE1105 /* OpenGL.framework */,
+				046EDF7E262E769300EE1105 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		046EDF82262E79D700EE1105 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF83262E79D700EE1105 /* GLBatchBase.h */,
+				046EDF84262E79D700EE1105 /* math3d.h */,
+				046EDF85262E79D700EE1105 /* GLTriangleBatch.h */,
+				046EDF86262E79D700EE1105 /* GLBatch.h */,
+				046EDF87262E79D700EE1105 /* GLMatrixStack.h */,
+				046EDF88262E79D700EE1105 /* GLFrame.h */,
+				046EDF89262E79D700EE1105 /* GLFrustum.h */,
+				046EDF8A262E79D700EE1105 /* GLGeometryTransform.h */,
+				046EDF8B262E79D700EE1105 /* GLShaderManager.h */,
+				046EDF8C262E79D700EE1105 /* StopWatch.h */,
+				046EDF8D262E79D700EE1105 /* GL */,
+				046EDF91262E79D700EE1105 /* GLTools.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		046EDF8D262E79D700EE1105 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				046EDF8E262E79D700EE1105 /* glxew.h */,
+				046EDF8F262E79D700EE1105 /* wglew.h */,
+				046EDF90262E79D700EE1105 /* glew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046EDF46262E760500EE1105 /* 001_TrangleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EDF71262E760900EE1105 /* Build configuration list for PBXNativeTarget "001_TrangleDemo" */;
+			buildPhases = (
+				046EDF43262E760500EE1105 /* Sources */,
+				046EDF44262E760500EE1105 /* Frameworks */,
+				046EDF45262E760500EE1105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 001_TrangleDemo;
+			productName = 001_TrangleDemo;
+			productReference = 046EDF47262E760500EE1105 /* 001_TrangleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046EDF5C262E760900EE1105 /* 001_TrangleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EDF74262E760900EE1105 /* Build configuration list for PBXNativeTarget "001_TrangleDemoTests" */;
+			buildPhases = (
+				046EDF59262E760900EE1105 /* Sources */,
+				046EDF5A262E760900EE1105 /* Frameworks */,
+				046EDF5B262E760900EE1105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046EDF5F262E760900EE1105 /* PBXTargetDependency */,
+			);
+			name = 001_TrangleDemoTests;
+			productName = 001_TrangleDemoTests;
+			productReference = 046EDF5D262E760900EE1105 /* 001_TrangleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046EDF67262E760900EE1105 /* 001_TrangleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EDF77262E760900EE1105 /* Build configuration list for PBXNativeTarget "001_TrangleDemoUITests" */;
+			buildPhases = (
+				046EDF64262E760900EE1105 /* Sources */,
+				046EDF65262E760900EE1105 /* Frameworks */,
+				046EDF66262E760900EE1105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046EDF6A262E760900EE1105 /* PBXTargetDependency */,
+			);
+			name = 001_TrangleDemoUITests;
+			productName = 001_TrangleDemoUITests;
+			productReference = 046EDF68262E760900EE1105 /* 001_TrangleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046EDF3F262E760500EE1105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					046EDF46262E760500EE1105 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					046EDF5C262E760900EE1105 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 046EDF46262E760500EE1105;
+					};
+					046EDF67262E760900EE1105 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 046EDF46262E760500EE1105;
+					};
+				};
+			};
+			buildConfigurationList = 046EDF42262E760500EE1105 /* Build configuration list for PBXProject "001_TrangleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046EDF3E262E760500EE1105;
+			productRefGroup = 046EDF48262E760500EE1105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046EDF46262E760500EE1105 /* 001_TrangleDemo */,
+				046EDF5C262E760900EE1105 /* 001_TrangleDemoTests */,
+				046EDF67262E760900EE1105 /* 001_TrangleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046EDF45262E760500EE1105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EDF51262E760900EE1105 /* Assets.xcassets in Resources */,
+				046EDF54262E760900EE1105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EDF5B262E760900EE1105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EDF66262E760900EE1105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046EDF43262E760500EE1105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EDF9C262E7BE800EE1105 /* Main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EDF59262E760900EE1105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EDF62262E760900EE1105 /* _01_TrangleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EDF64262E760900EE1105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EDF6D262E760900EE1105 /* _01_TrangleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046EDF5F262E760900EE1105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046EDF46262E760500EE1105 /* 001_TrangleDemo */;
+			targetProxy = 046EDF5E262E760900EE1105 /* PBXContainerItemProxy */;
+		};
+		046EDF6A262E760900EE1105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046EDF46262E760500EE1105 /* 001_TrangleDemo */;
+			targetProxy = 046EDF69262E760900EE1105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046EDF52262E760900EE1105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046EDF53262E760900EE1105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046EDF6F262E760900EE1105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		046EDF70262E760900EE1105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		046EDF72262E760900EE1105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 001_TrangleDemo/_01_TrangleDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = 001_TrangleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-01-TrangleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/001_TrangleDemo/include/GL/glew.h\"",
+					"\"$(SRCROOT)/001_TrangleDemo/include/GL/glxew.h\"",
+					"\"$(SRCROOT)/001_TrangleDemo/include/GL/wglew.h\"",
+				);
+			};
+			name = Debug;
+		};
+		046EDF73262E760900EE1105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 001_TrangleDemo/_01_TrangleDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = 001_TrangleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-01-TrangleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/001_TrangleDemo/include/GL/glew.h\"",
+					"\"$(SRCROOT)/001_TrangleDemo/include/GL/glxew.h\"",
+					"\"$(SRCROOT)/001_TrangleDemo/include/GL/wglew.h\"",
+				);
+			};
+			name = Release;
+		};
+		046EDF75262E760900EE1105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 001_TrangleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-01-TrangleDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001_TrangleDemo.app/Contents/MacOS/001_TrangleDemo";
+			};
+			name = Debug;
+		};
+		046EDF76262E760900EE1105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 001_TrangleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-01-TrangleDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001_TrangleDemo.app/Contents/MacOS/001_TrangleDemo";
+			};
+			name = Release;
+		};
+		046EDF78262E760900EE1105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 001_TrangleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-01-TrangleDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 001_TrangleDemo;
+			};
+			name = Debug;
+		};
+		046EDF79262E760900EE1105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95BU8S82HL;
+				INFOPLIST_FILE = 001_TrangleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsy.-01-TrangleDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 001_TrangleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046EDF42262E760500EE1105 /* Build configuration list for PBXProject "001_TrangleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EDF6F262E760900EE1105 /* Debug */,
+				046EDF70262E760900EE1105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EDF71262E760900EE1105 /* Build configuration list for PBXNativeTarget "001_TrangleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EDF72262E760900EE1105 /* Debug */,
+				046EDF73262E760900EE1105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EDF74262E760900EE1105 /* Build configuration list for PBXNativeTarget "001_TrangleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EDF75262E760900EE1105 /* Debug */,
+				046EDF76262E760900EE1105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EDF77262E760900EE1105 /* Build configuration list for PBXNativeTarget "001_TrangleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EDF78262E760900EE1105 /* Debug */,
+				046EDF79262E760900EE1105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046EDF3F262E760500EE1105 /* Project object */;
+}
