@@ -1,0 +1,6 @@
+framework module Pods_003____ClientTests {
+  umbrella header "Pods-003_粘拆包ClientTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

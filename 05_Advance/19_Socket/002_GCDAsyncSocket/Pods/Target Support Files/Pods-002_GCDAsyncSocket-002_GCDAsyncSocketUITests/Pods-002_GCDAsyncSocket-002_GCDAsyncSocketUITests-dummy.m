@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_002_GCDAsyncSocket_002_GCDAsyncSocketUITests : NSObject
+@end
+@implementation PodsDummy_Pods_002_GCDAsyncSocket_002_GCDAsyncSocketUITests
+@end

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '003_粘拆包Client' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 003_粘拆包Client
+  pod 'CocoaAsyncSocket', '~> 7.6.5'
+
+  target '003_粘拆包ClientTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '003_粘拆包ClientUITests' do
+    # Pods for testing
+  end
+
+end

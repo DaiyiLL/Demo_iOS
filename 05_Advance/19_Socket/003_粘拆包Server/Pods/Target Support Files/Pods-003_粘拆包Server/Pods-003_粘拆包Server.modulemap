@@ -1,0 +1,6 @@
+framework module Pods_003____Server {
+  umbrella header "Pods-003_粘拆包Server-umbrella.h"
+
+  export *
+  module * { export * }
+}

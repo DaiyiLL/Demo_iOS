@@ -1,0 +1,6 @@
+framework module Pods_003____Server_003____ServerUITests {
+  umbrella header "Pods-003_粘拆包Server-003_粘拆包ServerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
